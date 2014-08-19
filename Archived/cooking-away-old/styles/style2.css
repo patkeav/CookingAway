@@ -1,0 +1,69 @@
+#container {
+	background-image: url(public_html/background.png);
+	float: center;
+	background-repeat: no-repeat;
+	width: 1000px;
+}
+#header {
+	background-color: #A52628;
+	width: 1000px;
+}
+#navbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #831f17;
+	background: rgba(70, 163, 42, 0.4);
+	width: 100px;
+	padding: 10px;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+#container #navbox ul {
+	list-style-position: outside;
+	list-style-type: none;
+}
+#logo {
+	background-image: url(public_html/logo.png);
+	background-repeat: no-repeat;
+	width: 254px;
+	height: 74px;
+}
+#sideleft {
+	background-image: url(public_html/sideleft.png);
+	float: left;
+	background-repeat: no-repeat;
+	min-height: 573px;
+	width: 72px;
+}
+#sideright {
+	background-image: url(public_html/sideright.png);
+	float: right;
+	background-repeat: no-repeat;
+	min-height: 573px;
+	width: 72px;
+}
+
+.footer {
+	background-image: url(public_html/foot.png);
+	background-repeat: no-repeat;
+	min-height: 74px;
+	width: 1000px;
+	clear: both;
+}
+#navbox ul {
+	margin-left: 5px;
+}
+#navbox p {
+	padding: 10px;
+	margin: 5px;
+}
+#content {
+	background-color: rgba(233, 239, 250, 1);
+	margin: 10px;
+	margin-top: 70px;
+	padding: 10px;
+	float: left;
+	height: 400px;
+	width: 600px;
+	
+}
